@@ -120,13 +120,13 @@ body {
     max-width: 410px;
   }
 }
-.container {
+.media-container {
   background-color: #222;
   padding: 1em;
   width: 15em;
   position: relative;
   top: -3em;
-  left: 1.1em;
+  left: 8vw;
 }
 .media {
   display: flex;
@@ -154,33 +154,14 @@ body {
   font-family: "lora", Georgia, "Times New Roman", Times, serif;
 }
 @media (min-width: 46em) {
-  .container {
-    left: 22em;
+  .media-container {
+    left: 51vw;
   }
   .media-description {
     font-size: 1.5em;
   }
 }
-@media (min-width: 51.625em) {
-  .container {
-    left: 27em;
-  }
-}
-@media (min-width: 51.625em) {
-  .container {
-    left: 27em;
-  }
-}
-@media (min-width: 61.5625em) {
-  .container {
-    left: 33em;
-  }
-}
-@media (min-width: 73.875em) {
-  .container {
-    left: 48em;
-  }
-}
+
 .credit {
   opacity: 0.5;
   text-align: center;
